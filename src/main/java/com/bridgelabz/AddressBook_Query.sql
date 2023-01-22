@@ -32,3 +32,11 @@ select * from addressbook;
 --UC5
  delete from addressbook where first_name = "Lingaiah";
  select * from addressbook;
+
+--UC6
+
+select * from addressbook
+where city= "Hyd";
+
+select * from addressbook
+where state= "TS";
