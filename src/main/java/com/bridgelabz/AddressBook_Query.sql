@@ -50,3 +50,7 @@ select count(*) from addressbook where city = "TS";
 select * from addressbook
 where city= "Hyd"
 order by first_name;
+
+--UC9
+alter table addressbook add type varchar(10) after first_name;
+desc addressbook;
