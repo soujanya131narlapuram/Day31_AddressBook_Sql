@@ -44,3 +44,6 @@ where state= "TS";
 --UC7
 select count(*) from addressbook where city = "TS";
  select * from addressbook;
+
+--UC8
+
