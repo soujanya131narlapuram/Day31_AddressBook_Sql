@@ -16,3 +16,11 @@ phone_number varchar(15) not null ,
 email varchar(30) not null ,
 primary key(id)
 );
+
+--UC3
+insert into addressbook(first_name,last_name,address,city,state,zip,phone_number,email)
+values("Souju","narla","swarnagiri colony","hyd","TS",'500088','9381220872','soujanya131@gmail.com'),
+("Ashok","kolipaka","swarnagiri colony","hyd","TS",'500088','7382573349','kolipka965@gmail.com'),
+("Lingaiah","kolipaka","swarnagiri colony","hyd","TS",'500088','9908761349','K.lingaiah@gmail.com');
+select * from addressbook;
+
