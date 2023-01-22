@@ -47,3 +47,6 @@ select count(*) from addressbook where city = "TS";
 
 --UC8
 
+select * from addressbook
+where city= "Hyd"
+order by first_name;
