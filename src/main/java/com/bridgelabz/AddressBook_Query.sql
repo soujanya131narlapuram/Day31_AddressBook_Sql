@@ -30,4 +30,5 @@ set phone_number = '9704915852' where first_name = "Lingaiah";
 select * from addressbook;
 
 --UC5
-
+ delete from addressbook where first_name = "Lingaiah";
+ select * from addressbook;
