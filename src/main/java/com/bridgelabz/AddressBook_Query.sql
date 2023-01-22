@@ -24,3 +24,10 @@ values("Souju","narla","swarnagiri colony","hyd","TS",'500088','9381220872','sou
 ("Lingaiah","kolipaka","swarnagiri colony","hyd","TS",'500088','9908761349','K.lingaiah@gmail.com');
 select * from addressbook;
 
+--Uc4
+update addressbook
+set phone_number = '9704915852' where first_name = "Lingaiah";
+select * from addressbook;
+
+--UC5
+
