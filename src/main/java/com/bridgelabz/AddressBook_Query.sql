@@ -40,3 +40,7 @@ where city= "Hyd";
 
 select * from addressbook
 where state= "TS";
+
+--UC7
+select count(*) from addressbook where city = "TS";
+ select * from addressbook;
